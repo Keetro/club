@@ -1,6 +1,9 @@
 title: Marketing Club
 description: Marketing Club that helps SDRs build their skills and career options
 baseurl: "/"
+collections:
+  pages:
+    output: true
 destination: ./../public/
 # collections:
 #   pages:
