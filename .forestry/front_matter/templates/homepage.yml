@@ -5,12 +5,16 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
   label: title
+  hidden: false
 - type: number
   name: order
   label: order
+  hidden: true
 - type: text
   name: permalink
   label: permalink
+  hidden: true
