@@ -1,26 +1,7 @@
-<html lang="en"><head>
-        <meta charset="utf-8">
-        <title>Keetro - Marketing Club</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Marketing Club that helps SDRs build their skills and career options">
-        <meta property="og:image" content="https://keetro.club/img/landing-sdrs.png">
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script type="text/javascript" async="" src="http://cdn.heapanalytics.com/js/heap-3031782521.js"></script><script type="text/javascript">
-    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
-      heap.load("3031782521");
-</script>
-    </head>
-    <body class=" " cz-shortcut-listen="true">
-
+---
+layout: default
+---
+{% assign meta = site.data.homepage %}
         <a id="start"></a>
         <div class="main-container">
             <section class="imageblock switchable feature-large height-100 ">
@@ -41,20 +22,20 @@
                 <div class="container pos-vertical-center">
                     <div class="row ">
                         <div class="col-lg-5 col-md-7">
-                            <h1>Develop your Career as a Growth Associate!</h1>
+                            <h1>{{ meta.intro.header }}</h1>
                             <p class="lead">
-    Join Keetro Club, part of a <a href="https://keetro.org" target="_blank">Non-Profit</a>, as a Growth Associate to help us resolve communication issues facing our society while developing your career in marketing and demand generation. This position is a part-time opportunity that allows you to keep your full-time job.
+    {{ meta.intro.description }}
                             </p>
                             <div class="bg--secondary boxed boxed--border">
                                 <form action="pre-application-questionaire.html" method="get" data-error="Please provide your name and email address and agree to the terms.">
-                                    <h6 class="type--uppercase">Request My Application</h6>
+                                    <h6 class="type--uppercase">{{ meta.pre-application.name }}</h6>
                                     <input class="validate-required" type="text" name="name" placeholder="Your Name">
                                     <input class="validate-required validate-email" type="email" name="email" placeholder="Email Address">
                                     <div class="input-checkbox"><input class="validate-required" type="checkbox" name="group[13737][1]" id="input-assigned-0"><label for="input-assigned-0"></label></div>
                                     <span>I have read and agree to the
                                         <a target="_blank" href="https://www.keetro.org/terms.html">terms and conditions</a>
                                     </span>
-                                    <button type="submit" class="btn btn--primary-1 type--uppercase">Request Membership Application Materials</button>
+                                    <button type="submit" class="btn btn--primary-1 type--uppercase">{{ meta.pre-application.cta }}</button>
                                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                                         <input type="text" name="b_77142ece814d3cff52058a51f_f300c9cce8" tabindex="-1" value="">
                                     </div>
@@ -70,7 +51,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3>Partnering with Latest Technologies</h3>
+                            <h3>{{ meta.vendors.headline }}</h3>
                             <!-- <p class="lead">
                                Focus on your work without spending extra time figuring out your sales/marketing stack.
                             </p> -->
@@ -110,8 +91,8 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10 col-lg-8">
-                            <h2>Who is a Growth Associate?</h2>
-                            <p class="lead">Growth Associates are the frontline representatives of our organization and are an integral part of our elite marketing club. As a Growth Associate, you will engage industry professionals and win over prospects to attend networking events.</p>
+                            <h2>{{ meta.midsection.headline }}</h2>
+                            <p class="lead">{{ meta.midsection.description }}</p>
                         </div>
                     </div>
                     <!--end of row-->
@@ -167,8 +148,8 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10 col-lg-8">
-                            <h2>Advisors &amp; Access to Industry Leaders</h2>
-                            <p class="lead"><b>Keetro™ Club</b> is governed by a group of committed advisors who come from leadership positions in sales and marketing. They are all committed to seeing members flourish.</p>
+                            <h2>{{ meta.advisors.headline }}</h2>
+                            <p class="lead">{{ meta.advisors.explanation }} </p>
                         </div>
                     </div>
                     <!--end of row-->
@@ -315,11 +296,11 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-6">
                             <div class="cta">
-                                <h2>Let's Talk about Your Options for Career Development</h2>
-                                <p class="lead">Got what it takes to win over prospects? Can you convince almost anyone to attend a meeting? Great, we would love to hear from you! Fill out our application to be a part of our elite marketing club.</p>
+                                <h2>{{ meta.closing.headline }}</h2>
+                                <p class="lead">{{ meta.closing.explanation }}</p>
                                 <a class="btn btn--primary type--uppercase" href="pre-application-questionaire.html">
                                     <span class="btn__text">
-                                        Request Early Access
+                                        {{ meta.closing.cta }}
                                     </span>
                                 </a>
                             </div>
@@ -329,57 +310,3 @@
                 </div>
                 <!--end of container-->
             </section>
-
-
-
-    <div class="main-container">
-            <footer class="space--sm footer-1 text-center-xs bg--dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-
-                        </div>
-                        <div class="col-sm-6 text-right text-center-xs">
-                            <!-- <ul class="social-list list-inline list--hover">
-                                <li><a href="#"><i class="socicon socicon-google icon icon--xs"></i></a></li>
-                                <li><a href="#"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
-                                <li><a href="#"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
-                                <li><a href="#"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>
-                            </ul> -->
-                            <!-- <a href="mailto:donors@keetro.org" class="btn type--uppercase"> <span class="btn__text">
-                        Make a Donation
-                    </span> </a> -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12"> <span class="type--fine-print">© <span class="update-year">2019</span> Keetro Business League</span> <a class="type--fine-print" href="https://www.keetro.org/privacy.html">Privacy Policy</a> <a class="type--fine-print" href="https://www.keetro.org/terms.html">Legal</a><a class="type--fine-print" href="https://www.keetro.org/about.html">About</a><br><sup>*</sup> Application for Tax Exemption (501c6 non-profit) is Pending</div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/scripts.js"></script>
-
-
-
-
-<div class="container containerMeasure" style="opacity:0;pointer-events:none;"></div>
-
-<script type="text/javascript">
-_linkedin_partner_id = "1410876";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script><script type="text/javascript">
-(function(){var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})();
-</script>
-<noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1410876&fmt=gif" />
-</noscript>
-
-<div class="container containerMeasure" style="opacity:0;pointer-events:none;"></div></body></html>
