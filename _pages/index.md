@@ -7,13 +7,13 @@ navbar:
 order_number: 1
 permalink: /home.html
 
-images:
+home_images:
   left-sidebar: https://user-images.githubusercontent.com/59063136/71206821-6085bd80-225a-11ea-9435-4a40c5b5920b.jpg
   pre-application: https://user-images.githubusercontent.com/59063136/71206776-3b914a80-225a-11ea-9448-4b1abad9b5d9.jpg"
   story:
-   one: https://user-images.githubusercontent.com/59063136/71212601-7f8a4c80-2266-11ea-81c9-c36aa90fbed7.png
-   two: https://user-images.githubusercontent.com/59063136/71212590-7a2d0200-2266-11ea-905b-6af58ca41c70.png
-   three: https://user-images.githubusercontent.com/59063136/71212787-e9a2f180-2266-11ea-88f1-42564c78d2eb.png
+    one: https://user-images.githubusercontent.com/59063136/71212601-7f8a4c80-2266-11ea-81c9-c36aa90fbed7.png
+    two: https://user-images.githubusercontent.com/59063136/71212590-7a2d0200-2266-11ea-905b-6af58ca41c70.png
+    three: https://user-images.githubusercontent.com/59063136/71212787-e9a2f180-2266-11ea-88f1-42564c78d2eb.png
 why: |
   <h1>Why Keetro Club?</h1><p class="lead"> -access to network of industry professionals</p>
 value_proposition:

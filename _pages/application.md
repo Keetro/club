@@ -6,7 +6,7 @@ navbar:
   title: Application Process
 order_number: 2
 permalink: /application-process.html
-images:
+application_images:
     header: https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500
     pre-applicaiton: https://user-images.githubusercontent.com/59063136/71215627-21149c80-226d-11ea-947a-28fc3c2843e4.jpg
 movie:

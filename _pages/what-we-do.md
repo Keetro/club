@@ -6,7 +6,8 @@ navbar:
   title: What Do We Do?
 order_number: 3
 permalink: /what-do-we-do.html
-images:
+other_images:
+  career_opp: "https://user-images.githubusercontent.com/59063136/71205671-b6a53180-2257-11ea-83ef-e2437fbc6031.png"
   left-sidebar: "https://user-images.githubusercontent.com/59063136/71206821-6085bd80-225a-11ea-9435-4a40c5b5920b.jpg"
   sdr_skills: "https://mail.google.com/mail/u/0?ui=2&ik=b017d79882&attid=0.1&permmsgid=msg-a:r-2800180304213369896&th=16f15f68b1fad78c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-1lbvfLvAGc-TYi_GmAsSCzo2ZmcQQLpp-d80TpcX8fj8WjwhLyd3Ja1DfzfYoRlg89n4fACtTeYKXcuE9ulhorwJP3WBDDFQM3wG8VpOTlgyU9aLwtNh8wzE&disp=emb&realattid=ii_k4afpryb0"
   funnel: "https://user-images.githubusercontent.com/59063136/71195094-1690dd80-2242-11ea-85b2-dfbabe5cee0c.png"

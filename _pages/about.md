@@ -6,7 +6,7 @@ navbar:
   title: About Us
 order_number: 4
 permalink: /about-us.html
-images:
+about_images:
   right_sidebar: https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
 highlights: "<u>- Keetro Club Highlights</u><br>- Marketing club<br>- Non-profit organization
                                 <br>- Platform for industry professionals to network<br>- Providing tools and&nbsp;career development opportunities for SDRs to grow"
