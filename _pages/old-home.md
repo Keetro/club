@@ -1,7 +1,7 @@
 ---
 layout: old-home
-title: Old Homepage
-order: 1
+title: Marketing Club
+order_number: 5
 permalink: /
 
 intro:

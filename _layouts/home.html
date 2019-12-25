@@ -2,97 +2,19 @@
 layout: default
 ---
 {% assign meta = page %}
-<!doctype html>
-        <div class="nav-container">
-            <div class="via-1576629100934" via="via-1576629100934" vio="Keetro Club">
-                <div class="bar bar--sm visible-xs">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-9 col-md-10 text-right">
-                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <nav id="menu1" class="bar bar-1 hidden-xs bar--absolute bar--transparent">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
-                                <div class="bar__module">
-                                    <ul class="menu-horizontal text-left">
-                                        <li class="dropdown">
-                                            <div class="dropdown__container">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="dropdown__content col-lg-2">
-                                                            <ul class="menu-vertical">
-                                                                <li> <a href="#">Single Link</a> </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="dropdown"> <span class="dropdown__trigger"> Club Resources&nbsp;</span>
-                                            <div class="dropdown__container">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="dropdown__content row w-100">
-                                                            <div class="col-lg-3">
-                                                                <h5><a href="/home/">Home</a>&nbsp;</h5>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5><a href="/what-do-we-do/">The Problem and Our Solution</a></h5>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5><a href="/application-process/">Application Process</a></h5>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5><a href="/about-us/">About Us</a></h5>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="bar__module">
-                                    <a class="btn btn--sm type--uppercase" href="#customise-template"> <span class="btn__text"><span>Log In</span></span>
-                                    </a>
-                                    <a class="btn btn--sm btn--primary type--uppercase" href="/application-process/" target="_self"> <span class="btn__text">
-                                    Join Us</span> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="main-container">
-            <a id="page-title-1" class="in-page-link"></a>
-            <section class="space--xxs bg--dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1>Home Page</h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
+{% include navbar.html %}
             <a id="cover-image-1" class="in-page-link"></a>
-            <section class="cover space--lg unpad--bottom switchable text-center bg--dark">
+            <section class="cover space--sm unpad--bottom switchable text-center bg--dark">
                 <div class="container">
                     <div class="row justify-content-between">
                         <div class="col-md-6">
                             <div class="mt--2">
-                                <h1>What we do?</h1>
-                                <p class="lead">- SDRs become "stuck" in current career<br>- Lack of growth opportunities/ career advancement<br>- KC provides opportunities to grow and develop skillset<br></p>
-                                <a class="btn btn--primary type--uppercase" href="/what-do-we-do/" target="_self"> <span class="btn__text">
-                            Learn more about our mission</span> </a>
+                                {{ meta.sidebar.text }}
+                                <a class="btn btn--primary type--uppercase" href="{{ site.data.links.about }}" target="_self"> <span class="btn__text">
+                            {{ meta.sidebar.cta }}</span> </a>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-5"> <img alt="Image" src="https://user-images.githubusercontent.com/59063136/71206821-6085bd80-225a-11ea-9435-4a40c5b5920b.jpg"> </div>
+                        <div class="col-md-6 col-lg-5"> <img alt="Image" src="{{ meta.images.left-sidebar }}"> </div>
                     </div>
                 </div>
             </section>
@@ -100,12 +22,11 @@ layout: default
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-6">
-                            <h1>About Keetro Club</h1>
-                            <p class="lead">- Elite marketing club <br>- Non-profit organization. <br>- Platform to network with industry professionals <br>- Providing growth and development opportunities for SDRs<br><br></p>
-                            <a class="btn btn--primary type--uppercase" href="/about-us/" target="_self"> <span class="btn__text">Learn more about Keetro Club</span> </a>
+                            {{ meta.about.text }}
+                            <a class="btn btn--primary type--uppercase" href="/about-us/" target="_self"> <span class="btn__text">{{ meta.about.cta }}</span> </a>
                         </div>
                         <div class="col-md-12">
-                            <div class="triptych border--round"> <img alt="Image" src="https://user-images.githubusercontent.com/59063136/71212601-7f8a4c80-2266-11ea-81c9-c36aa90fbed7.png"> <img alt="Image" src="https://user-images.githubusercontent.com/59063136/71212590-7a2d0200-2266-11ea-905b-6af58ca41c70.png"> <img alt="Image" src="https://user-images.githubusercontent.com/59063136/71212787-e9a2f180-2266-11ea-88f1-42564c78d2eb.png"> </div>
+                            <div class="triptych border--round"> <img alt="Where you Start" src="{{ meta.images.story.one }}"> <img alt="Where do you want to go" src="{{ meta.images.story.two }}"> <img alt="Where you can end up" src="{{ meta.images.story.three }}"> </div>
                         </div>
                     </div>
                 </div>
@@ -114,8 +35,7 @@ layout: default
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 col-lg-8">
-                            <h1>Why Keetro Club?</h1>
-                            <p class="lead"> -access to network of industry professionals&nbsp;&nbsp;</p>
+                            {{ meta.why }}
                         </div>
                     </div>
                 </div>
@@ -125,26 +45,26 @@ layout: default
                     <div class="row">
                         <div class="col-md-6 col-lg-3">
                             <div class="text-block"> <i class="icon color--dark material-icons icon--lg">settings_remote</i>
-                                <h4>Remote opportunities<br>&nbsp;</h4>
-                                <p>- Work from anywhere</p>
+                                <h4>Remote<br>&nbsp;</h4>
+                                <p>{{ meta.value_proposition.one }}</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="text-block"> <i class="icon color--dark icon-People-onCloud icon--lg"></i>
                                 <h4>Part-time<br><br></h4>
-                                <p><span>- Work on own schedule</span></p>
+                                <p>{{ meta.value_proposition.two }}</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="text-block"> <i class="icon color--dark icon-Add-UserStar icon--lg"></i>
-                                <h4>Develop your Marketing skills.&nbsp;</h4>
-                                <p>- Learn new skills/ gain experience&nbsp;</p>
+                                <h4>Develop Marketing Skills</h4>
+                                <p>{{ meta.value_proposition.three }}</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="text-block"> <i class="icon color--dark icon-Dollar-Sign icon--lg"></i>
-                                <h4>Financial incentives</h4>
-                                <p><span>- Get paid to grow /develop career</span></p>
+                                <h4>Financial Incentives</h4>
+                                <p>{{ meta.value_proposition.four }}</p>
                             </div>
                         </div>
                     </div>
@@ -155,22 +75,22 @@ layout: default
                     <div class="process-2 row">
                         <div class="col-md-3">
                             <div class="process__item">
-                                <h5>Fill out the Pre-application form</h5>
+                                <h5>{{ meta.application_process.one }}</h5>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="process__item">
-                                <h5>Fill out Keetro Club application&nbsp;</h5>
+                                <h5>{{ meta.application_process.two }}</h5>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="process__item">
-                                <h5>Pay $25 Application processing fee</h5>
+                                <h5>{{ meta.application_process.three }}</h5>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="process__item">
-                                <h5>Gain access to Keetro Club's Resources</h5>
+                                <h5>{{ meta.application_process.four }}</h5>
                             </div>
                         </div>
                     </div>
@@ -181,8 +101,8 @@ layout: default
                     <div class="row">
                         <div class="col-md-8 col-lg-6">
                             <div class="cta">
-                                <a class="btn btn--primary btn--lg type--uppercase" href="/application-process/" target="_self"> <span class="btn__text">
-                            Learn more about our Application Process</span> </a>
+                                <a class="btn btn--primary btn--lg type--uppercase" href="{{ site.data.links.application }}" target="_self"> <span class="btn__text">
+                            {{ meta.application_process.cta }}</span> </a>
                             </div>
                         </div>
                     </div>
@@ -190,12 +110,12 @@ layout: default
             </section>
             <section class="space--xs imageblock switchable feature-large">
                 <div class="imageblock__content col-lg-5 col-md-4 pos-right">
-                    <div class="background-image-holder"> <img alt="image" src="https://user-images.githubusercontent.com/59063136/71206776-3b914a80-225a-11ea-9448-4b1abad9b5d9.jpg"> </div>
+                    <div class="background-image-holder"> <img alt="image" src="{{ meta.images.pre-application }}"> </div>
                 </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-7">
-                            <h2>Join Keetro Club&nbsp;</h2> <span>Already have an account? <a href="#">Sign In</a></span>
+                            <h2>Join Keetro Club&nbsp;</h2> <span>Already have an account? <a href="{{ site.data.links.login }}">Sign In</a></span>
                             <hr class="short">
                             <form>
                                 <div class="row">
@@ -207,7 +127,7 @@ layout: default
                                         <div class="input-checkbox"> <input type="checkbox" name="agree"> <label></label> </div> <span>Remember Me</span> </div>
                                     <div class="col-12"> <button type="submit" class="btn btn--primary">Start&nbsp;the Keetro Club Application </button> </div>
                                     <hr>
-                                    <div class="col-12"> <span class="type--fine-print">By signing up, you agree to the <a href="#">Terms of Service</a></span> </div>
+                                    <div class="col-12"> <span class="type--fine-print">By signing up, you agree to the <a href="{{ site.data.links.terms }}">Terms of Service</a></span> </div>
                                 </div>
                             </form>
                         </div>

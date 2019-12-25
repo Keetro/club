@@ -1,35 +1,18 @@
 ---
-#layout: default
+layout: default
 ---
 {% assign meta = page %}
-<!doctype html>
-
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/theme-aqua.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
-
-    </head>
-    <body data-smooth-scroll-offset="77">
         <div class="nav-container"> </div>
         <div class="main-container">
             <section class="cover height-80 imagebg text-center" data-overlay="7">
-                <div class="background-image-holder"> <img alt="background" src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"> </div>
+                <div class="background-image-holder"> <img alt="background" src="{{ meta.images.header }} "> </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-md-8 col-lg-7">
-                            <h1>How to Become a Keetro Club Growth Associate</h1>
-                            <p class="lead">- Growth Associates help grow intra/interpersonal conversations in different industries<br>- Lead our company’s efforts in fulfilling the Keetro mission. </p>
-                            <a class="btn btn--primary type--uppercase inner-link" href="#/application-process/" target="_self"> <span class="btn__text">
-            Join Keetro Club Today</span> </a>
+                            <h1>{{ meta.header.title }}</h1>
+                            <p class="lead">{{ meta.header.body }}</p>
+                            <a class="btn btn--primary type--uppercase inner-link" href="{{ site.data.links.application }}" target="_self"> <span class="btn__text">
+            {{ meta.header.cta }}</span> </a>
                         </div>
                     </div>
                 </div>
@@ -39,7 +22,7 @@
                     <div class="row">
                         <div class="col-md-10 col-lg-8">
                             <p class="lead"><u>
-          Partnering with the Latest Technologies&nbsp;</u></p>
+          Partnering with the Latest Technologies</u></p>
                         </div>
                     </div>
                 </div>
@@ -50,11 +33,9 @@
                         <div class="col">
                             <div class="slider slider--inline-arrows slider--arrows-hover text-center" data-arrows="true">
                                 <ul class="slides">
-                                    <li class="col-md-3 col-6"> <img alt="Image" class="image--xxs" src="img/partner-1.png"> </li>
-                                    <li class="col-md-3 col-6"> <img alt="Image" class="image--xxs" src="img/partner-2.png"> </li>
-                                    <li class="col-md-3 col-6"> <img alt="Image" class="image--xxs" src="img/partner-3.png"> </li>
-                                    <li class="col-md-3 col-6"> <img alt="Image" class="image--xxs" src="img/partner-4.png"> </li>
-                                    <li class="col-md-3 col-6"> <img alt="Image" class="image--xxs" src="img/partner-5.png"> </li>
+                                           {%  for product in meta.partners  %}
+                                    <li class="col-md-3 col-6"> <img alt="{{ product.title }}" class="image--xxs" src="{{ product.link }}"> </li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
@@ -67,27 +48,27 @@
                         <div class="col-lg-5 col-md-4">
                             <div class="switchable__text">
                                 <h2><u>Why join us?</u></h2>
-                                <p class="lead">- Provide low risk, remote opportunities&nbsp;<br>- Financial incentives to grow and develop skills<br>- Network with industry leaders<br>-&nbsp;Transition/grow into a new career as a growth marketer</p>
+                                <p class="lead">{{ meta.why-join.main }}</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="boxed boxed--lg boxed--border">
                                 <div class="feature feature-2"> <i class="icon color--primary icon-Dollar-Sign"></i>
                                     <div class="feature__body">
-                                        <h5>Diversify your skill set with financial compensation</h5>
-                                        <p>- Uncapped earning potential <br>- On-the-job training to build skill-set&nbsp;</p>
+                                        <h5>{{ meta.why-join.sidebar.one.title }}</h5>
+                                        <p>{{ meta.why-join.sidebar.one.body }}</p>
                                     </div>
                                 </div>
                                 <div class="feature feature-2"> <i class="icon color--primary icon-Add-User"></i>
                                     <div class="feature__body">
-                                        <h5>Network with industry professionals&nbsp;</h5>
-                                        <p>- Work with industry professionals and leaders<br>- Build network of connections<br>- Create new opportunities for career transitions</p>
+                                        <h5>{{ meta.why-join.sidebar.two.title }}</h5>
+                                        <p>{{ meta.why-join.sidebar.two.body }}</p>
                                     </div>
                                 </div>
                                 <div class="feature feature-2"> <i class="icon color--primary icon-Clock-Back"></i>
                                     <div class="feature__body">
-                                        <h5>Remote, part-time&nbsp;and low risk opportunities&nbsp;</h5>
-                                        <p> - Work from anywhere<br>- On your own time<br>- Get paid to learn new skills/gain experience in new areas</p>
+                                        <h5>{{ meta.why-join.sidebar.three.title }}</h5>
+                                        <p>{{ meta.why-join.sidebar.three.body }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -100,38 +81,35 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="process-1">
+                                 {%  for item in meta.process  %}
                                 <div class="process__item">
-                                    <h4>Fill out Pre-Application Form</h4>
-                                    <p> - Helps us stay in touch as they complete process</p>
+                                    <h4>{{ item.name }}</h4>
+                                    <p>{{ item.description }}</p>
                                 </div>
-                                <div class="process__item">
-                                    <h4>Fill out the Application form</h4>
-                                    <p> - Evaluate prior experience to ensure right resources are provided&nbsp;</p>
-                                </div>
-                                <div class="process__item">
-                                    <h4>Pay $25 application processing fee</h4>
-                                    <p> -&nbsp; &nbsp;Small fee to process application and other administrative costs.&nbsp;<br>-&nbsp; Non-profit = all $ goes back into the company</p>
-                                </div>
+                                {% endfor  %}
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="cover imagebg switchable height-80 switchable--switch parallax" data-overlay="9">
-                <div class="background-image-holder"> <img alt="background" src="img/inner-4.jpg"> </div>
+                <div class="background-image-holder"> <img alt="background" src="{{ meta.movie.bg-image }}"> </div>
                 <div class="container pos-vertical-center">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-5 col-md-7">
                             <div class="switchable__text">
-                                <h1> Gain Access to Industry Leaders</h1>
-                                <p class="lead"><b>- KC&nbsp;</b>has a group of advisors&nbsp;<br>- From sales and marketing leadership backgrounds<br>- Committed to seeing members succeed</p>
-                                <a class="btn btn--primary type--uppercase" href="/home/" target="_self"> <span class="btn__text">Learn more</span> </a>
+                                <h1>{{ meta.influencer.header}} </h1>
+                                <p class="lead">{{ meta.influencer.body }}</p>
+                                <a class="btn btn--primary type--uppercase" href="{{ site.data.links.home }}" target="_self"> <span class="btn__text">{{ meta.influencer.cta }}</span> </a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-4 col-12">
                             <div class="video-cover border--round box-shadow-wide">
-                                <div class="background-image-holder"> <img alt="image" src="<iframe width=&quot;540&quot; height=&quot;350&quot; src=&quot;https://www.youtube.com/embed/PBGGfjamIMQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen></iframe>"> </div>
-                                <div class="video-play-icon"></div> <iframe data-src="https://www.youtube.com/watch?v=ZsmKeL66vko" allowfullscreen="allowfullscreen"></iframe> </div>
+
+                                <div class="background-image-holder"> <img alt="Mike Holt" src="{{ meta.movie.image }}"> </div>
+                                <div class="video-play-icon"></div>
+<iframe data-src="{{ meta.movie.link }}?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media"  allowfullscreen></iframe></div>
+
                         </div>
                     </div>
                 </div>
@@ -158,25 +136,8 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-8"> <img alt="Image" class="border--round box-shadow-shallow" src="https://user-images.githubusercontent.com/59063136/71215627-21149c80-226d-11ea-947a-28fc3c2843e4.jpg"> </div>
+                        <div class="col-lg-5 col-md-8"> <img alt="Image" class="border--round box-shadow-shallow" src="{{ meta.images.pre-application }}"> </div>
                     </div>
                 </div>
             </section>
-            <footer class="text-center-xs space--xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-7"> <span class="type--fine-print">© <span class="update-year">2019</span> Keetro Business League.</span>
-                            <a class="type--fine-print" href="#"> </a> <a class="type--fine-print" href="#">* Application for Tax Exemption (501c6 non-profit) is pending</a> </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/flickity.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/scripts.js"></script>
 
-    </body>
-
-</html>
