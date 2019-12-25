@@ -1,0 +1,26 @@
+---
+layout: home
+title: Marketing Club
+order: 1
+permalink: /
+
+intro:
+  header: Develop your Career as a Growth Associate!
+  description: "Join Keetro Club, part of a Non-Profit, as a Growth Associate to help us resolve communication issues facing our society while developing your career in marketing and demand generation. This position is a part-time opportunity that allows you to keep your full-time job."
+pre-application:
+  name: REQUEST MY APPLICATION
+  cta: REQUEST MEMBERSHIP APPLICATION MATERIALS
+vendors:
+  headline: Partnering with Latest Technologies
+midsection:
+  headline: Who is a Growth Associate?
+  description: "Growth Associates are the frontline representatives of our organization and are an integral part of our elite marketing club. As a Growth Associate, you will engage industry professionals and win over prospects to attend networking events."
+advisors:
+  headline: Advisors & Access to Industry Leaders
+  explanation: "<b>Keetro™ Club</b> is governed by a group of committed advisors who come from leadership positions in sales and marketing. They are all committed to seeing members flourish."
+closing:
+  headline: Let's Talk about Your Options for Career Development
+  explanation: "Got what it takes to win over prospects? Can you convince almost anyone to attend a meeting? Great, we would love to hear from you! Fill out our application to be a part of our elite marketing club."
+  cta: Request Early Access
+
+---

@@ -5,11 +5,9 @@ collections:
   pages:
     output: true
 destination: ./../public/
-# collections:
-#   pages:
-#     output: true
-#   lps:
-#     output: true
+collections:
+  pages:
+    output: true
 url: https://keetro.club
 title: Keetro.club
 # defaults:
