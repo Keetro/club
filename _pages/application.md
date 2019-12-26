@@ -17,7 +17,7 @@ header:
   cta: Join Keetro Club Today
 partners:
 - title: Outreach
-  link: https://user-images.githubusercontent.com/1756903/71440215-5aa43800-26b1-11ea-8ec6-5e94eaf52ec0.png
+  link: "/uploads/outreach_logo.png"
 - title: LinkedIn
   link: https://user-images.githubusercontent.com/1756903/71440234-67289080-26b1-11ea-832b-d9a2ec392d8e.png
 - title: Zapier
