@@ -28,7 +28,7 @@
 			"file": "_pages/what-we-do.md",
 			"settings":
 			{
-				"buffer_size": 3945,
+				"buffer_size": 5005,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -37,7 +37,7 @@
 			"file": "_pages/about.md",
 			"settings":
 			{
-				"buffer_size": 1763,
+				"buffer_size": 1673,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -366,6 +366,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Get paid to develop",
 			"Home",
 			"HOME\n\n",
 			"linkedin",
@@ -396,7 +397,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -584,15 +585,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3945,
+						"buffer_size": 5005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								97
+								1724,
+								1724
 							]
 						],
 						"settings":
@@ -754,7 +755,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -763,15 +764,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1763,
+						"buffer_size": 1673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								105
+								197,
+								197
 							]
 						],
 						"settings":
@@ -925,13 +926,15 @@
 								"bh_default_content"
 							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 47.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -954,17 +957,32 @@
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone": 199,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										3250,
+										3251
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										3220,
+										3221
+									]
 								},
 								"unmatched":
 								{
@@ -1032,27 +1050,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										3250,
-										3251
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										3220,
-										3221
-									]
 								},
 								"unmatched":
 								{
@@ -1125,7 +1128,7 @@
 						"translation.y": 592.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -1,17 +1,6 @@
 ---
 layout: what-we-do
 title: What Do We Do?
-<<<<<<< Updated upstream
-navbar:
-  show_title: false
-  title: What Do We Do?
-order_number: "3"
-permalink: "/what-do-we-do.html"
-right-header: These are the skills you can learn from Keetro Club!
-right-content: "-&nbsp; Get paid to develop, learn, and expand the skillset&nbsp;<br>-
-  Help prepare for advancement opportunities<br>- Transition into a new marketing
-  career&nbsp;&nbsp;"
-=======
 menus:
   header:
     show_title: false
@@ -28,7 +17,6 @@ other_images:
   growth_skills: "https://mail.google.com/mail/u/0?ui=2&amp;ik=b017d79882&amp;attid=0.1&amp;permmsgid=msg-a:r1922318279603828568&amp;th=16f15ff67e2141c8&amp;view=fimg&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ_fYVlusLWf_RY14S9aw1XVRNSg01Yd31WVQ4Wjo50U2lzJglOUxoHBnAW_VTr_y8hJKNpOLPd3NAwCZX_hr5FhfbHlflH6EOtciisASbDYnWeXETe5uxF5vzs&amp;disp=emb&amp;realattid=ii_k4ag2bqk0"
 right-header: "These are the skills you can learn from Keetro Club!"
 right-content: "-&nbsp; Get paid to develop, learn, and expand the skillset&nbsp;<br>- Help prepare for advancement opportunities<br>- Transition into a new marketing career&nbsp;&nbsp;"
->>>>>>> Stashed changes
 right-cta: Join Keetro Club Now
 problem_outline: '<h2>The Problem SDRs Face</h2><p class=\"lead\">- SDR roles are
   typically entry-level. <br>- Play a critical role at any company <br>- First contact
