@@ -25,6 +25,5 @@ feature2: <h4>Our Mission</h4> <p>"Through professional events and networking op
   Keetro.org seeks to resolve the issues of isolation created by the abundance of
   technology in our modern world. Keetro Club members work at promoting and propagating
   these events through various marketing mechanisms"</p>
-published: false
 
 ---
