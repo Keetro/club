@@ -7,7 +7,7 @@ application_images:
   header: https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500
   pre-applicaiton: https://user-images.githubusercontent.com/59063136/71215627-21149c80-226d-11ea-947a-28fc3c2843e4.jpg
 movie:
-  image: ''
+  image: "/uploads/mike_holt.jpg"
   link: https://www.youtube.com/embed/PBGGfjamIMQ
   bg-image: https://user-images.githubusercontent.com/1756903/71437586-3cd1d580-26a7-11ea-8161-092ad849ac53.jpg
 header:
