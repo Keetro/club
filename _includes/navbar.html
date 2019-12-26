@@ -21,8 +21,8 @@
                                                     <div class="row">
                                                         <div class="dropdown__content col-lg-2">
                                                             <ul class="menu-vertical">
-                                                               {%  for item in site.pages  %}
-  <li> <a href="{{ item.url }}" class="inner-link" target="_self">{{ item.navbar.title }}</a> </li>
+                                                                {% for item in site.menus.header %}
+  <li> <a href="{{ item.url }}" class="inner-link" target="_self">{{ item.title }}</a> </li>
 {% endfor  %}
                                                             </ul>
                                                         </div>
@@ -45,13 +45,13 @@
             </div>
         </div>
         <div class="main-container">
-            {% if page.navbar.show_title %}
+            {% if meta.menus.header.show_title %}
             <a id="page-title-1" class="in-page-link"></a>
             <section class="space--xxs bg--dark">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>{{ meta.navbar.title }}</h1>
+                            <h1>{{ meta.menus.header.nav_title }}</h1>
                         </div>
                     </div>
                 </div>

@@ -1,11 +1,22 @@
 ---
 layout: about
 title: About our Non-profit Mission
+<<<<<<< Updated upstream
 navbar:
   show_title: true
   title: About Us
 order_number: "4"
 permalink: "/about-us.html"
+=======
+menus:
+  header:
+    show_title: true
+    nav_title: About Us
+    title: About
+    url: about-us.html
+order_number: 4
+permalink: /about-us.html
+>>>>>>> Stashed changes
 about_images:
   right_sidebar: https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
 highlights: "<u>- Keetro Club Highlights</u><br>- Marketing club<br>- Non-profit organization

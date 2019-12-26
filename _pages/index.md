@@ -1,9 +1,12 @@
 ---
 layout: home
 title: Marketing Club
-navbar:
-  show_title: true
-  title: Welcome!
+menus:
+  header:
+    show_title: true
+    nav_title: Welcome!
+    title: Home
+    url: home.html
 order_number: 1
 permalink: /home.html
 

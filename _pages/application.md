@@ -1,9 +1,11 @@
 ---
 layout: application-process
 title: Become a Growth Associate
-navbar:
-  show_title: false
-  title: Application Process
+#menus:
+#  header:
+#    show_title: false
+#    title: Application Process
+#    url: application-process.html
 order_number: 2
 permalink: /application-process.html
 application_images:
