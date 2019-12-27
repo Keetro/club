@@ -5,10 +5,14 @@ order_number: "5"
 permalink: "/"
 intro:
   header: Expanding Opportunities for SDR’s Everywhere
-  description: 'Welcome to Keetro Club, where sales development representatives have
-    the opportunity to realize their full potential.
+  description: |+
+    Welcome to Keetro Club, where sales development representatives have the opportunity to realize their full potential.<br>We’re ready to move mountains to help you succeed.<br>
+    Whether you could use a steady diet of new projects or you’d like to expand your skillset, Keetro Club gives you the opportunity to make it happen. Through Keetro Club, you can:<br>
+    Work from wherever, (you’re not tethered to a particular location);<br>
+    Take on as much as you like while continuing with your full-time SDR gig;<br>
+    Get effective training in new skill sets from those who know best;<br>
+    Manage successful projects that can put more money in your pocket and take your career in new and exciting directions.
 
-'
 pre-application:
   name: REQUEST MY APPLICATION
   cta: REQUEST MEMBERSHIP APPLICATION MATERIALS
