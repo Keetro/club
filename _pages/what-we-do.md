@@ -27,15 +27,15 @@ problem_outline: "<h2>The SDR Problem</h2><p class=\\\"lead\\\">- If you’re an
   resume.” - Trish Bertuzzi, President & Chief Strategist, The Bridge Group.<br>\n
   \n<br>What if you could constantly learn new transferable skills so that if and
   when an AE or other management position becomes available, you’re perfectly positioned
-  to succeed with a leg up on the competition? <br>\n \nIn the event that you find
-  your career progress at a standstill with no available pathways for advancement,
-  Keetro Club is here to provide you with another way forward. <br> Through Keetro
-  Club, you can: <br>\n• Take on projects that help you learn new transferable skills;
-  <br>\n• Gain experience in Growth Marketing activities; <br>\n• Build your network
-  through fellow Keetro Club members; <br>\n• And ultimately, Forge your own career
-  path. <br>\n\n<br>- Become a Growth Associate\n<br>- If you’re not satisfied with
-  the trajectory of your career, you have two choices: continue to languish and wait
-  for a growth opportunity that may never come, or be proactive and give yourself
+  to succeed with a leg up on the competition? <br>\n \n<h3> Solution <h3/> <p class=\\\"lead\\\">In
+  the event that you find your career progress at a standstill with no available pathways
+  for advancement, Keetro Club is here to provide you with another way forward. <br>
+  Through Keetro Club, you can: <br>\n• Take on projects that help you learn new transferable
+  skills; <br>\n• Gain experience in Growth Marketing activities; <br>\n• Build your
+  network through fellow Keetro Club members; <br>\n• And ultimately, Forge your own
+  career path. <br> </p>\n\n<br>- Become a Growth Associate\n<br>- If you’re not satisfied
+  with the trajectory of your career, you have two choices: continue to languish and
+  wait for a growth opportunity that may never come, or be proactive and give yourself
   a chance to grow and thrive.<br>\nWe’re here for those who choose the latter option.\nWe
   hope you’re one of them.\n <br></p>\n"
 sdr_skills: '<h1>SDR''s top 5 Skills:</h1><p class=\"lead\">- Have good/versitile
