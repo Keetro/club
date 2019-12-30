@@ -4,8 +4,8 @@ title: Marketing Club
 order_number: "1"
 permalink: "/home.html"
 home_images:
-  left-sidebar: keetro banner-05 (1).jpg
-  pre-application: keetro banner-01 (1).jpg
+  left-sidebar: "/uploads/keetro banner-05 (1).jpg"
+  pre-application: "/uploads/keetro banner-01 (1).jpg"
   story:
     one: Cold Calling (8).png
     two: Cold Calling (6).png
