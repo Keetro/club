@@ -4,7 +4,7 @@ title: About our Non-profit Mission
 order_number: "4"
 permalink: "/about-us.html"
 about_images:
-  right_sidebar: https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
+  right_sidebar: Seattle About page.jpg
 highlights: |
   <u>- Keetro Club Highlights</u><br>
   Through Keetro Club, you can: <br>
