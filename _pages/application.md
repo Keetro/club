@@ -5,7 +5,7 @@ order_number: "2"
 permalink: "/application-process.html"
 application_images:
   header: "/uploads/Application Landing page cover.jpg"
-  pre-applicaiton: "/uploads/banner-girl-whiteshirt.jpg"
+  pre-application: "/uploads/banner-girl-whiteshirt.jpg"
 movie:
   image: "/uploads/mike_holt.jpg"
   link: https://www.youtube.com/embed/PBGGfjamIMQ
