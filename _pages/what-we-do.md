@@ -8,7 +8,7 @@ other_images:
   left-sidebar: "/uploads/keetro banner-05 (1).jpg"
   sdr_skills: https://mail.google.com/mail/u/0?ui=2&ik=b017d79882&attid=0.1&permmsgid=msg-a:r-2800180304213369896&th=16f15f68b1fad78c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-1lbvfLvAGc-TYi_GmAsSCzo2ZmcQQLpp-d80TpcX8fj8WjwhLyd3Ja1DfzfYoRlg89n4fACtTeYKXcuE9ulhorwJP3WBDDFQM3wG8VpOTlgyU9aLwtNh8wzE&disp=emb&realattid=ii_k4afpryb0
   funnel: "/uploads/Blue and White Funnel Chart Presentation (1) (1).png"
-  growth_skills: https://mail.google.com/mail/u/0?ui=2&amp;ik=b017d79882&amp;attid=0.1&amp;permmsgid=msg-a:r1922318279603828568&amp;th=16f15ff67e2141c8&amp;view=fimg&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ_fYVlusLWf_RY14S9aw1XVRNSg01Yd31WVQ4Wjo50U2lzJglOUxoHBnAW_VTr_y8hJKNpOLPd3NAwCZX_hr5FhfbHlflH6EOtciisASbDYnWeXETe5uxF5vzs&amp;disp=emb&amp;realattid=ii_k4ag2bqk0
+  growth_skills: "/uploads/Growth Marketers Skills.png"
 right-header: These are the skills you can learn from Keetro Club!
 right-content: "-&nbsp; Get paid to develop, learn, and expand the skillset&nbsp;<br>-
   Help prepare for advancement opportunities<br>- Transition into a new marketing
