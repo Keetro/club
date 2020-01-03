@@ -4,8 +4,8 @@ title: Become a Growth Associate
 order_number: "2"
 permalink: "/application-process.html"
 application_images:
-  header: Application Landing page cover.jpg
-  pre-applicaiton: Keetro Application picture.jpg
+  header: "/uploads/Application Landing page cover.jpg"
+  pre-applicaiton: "/uploads/Keetro Application picture.jpg"
 movie:
   image: "/uploads/mike_holt.jpg"
   link: https://www.youtube.com/embed/PBGGfjamIMQ
