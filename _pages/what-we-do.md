@@ -4,7 +4,7 @@ title: What Do We Do?
 order_number: "3"
 permalink: "/what-do-we-do.html"
 other_images:
-  career_opp: Cold Calling (3).png
+  career_opp: "/uploads/Cold Calling (3).png"
   left-sidebar: keetro banner-05 (1).jpg
   sdr_skills: https://mail.google.com/mail/u/0?ui=2&ik=b017d79882&attid=0.1&permmsgid=msg-a:r-2800180304213369896&th=16f15f68b1fad78c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-1lbvfLvAGc-TYi_GmAsSCzo2ZmcQQLpp-d80TpcX8fj8WjwhLyd3Ja1DfzfYoRlg89n4fACtTeYKXcuE9ulhorwJP3WBDDFQM3wG8VpOTlgyU9aLwtNh8wzE&disp=emb&realattid=ii_k4afpryb0
   funnel: Blue and White Funnel Chart Presentation (1) (1).png
