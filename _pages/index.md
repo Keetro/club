@@ -7,9 +7,9 @@ home_images:
   left-sidebar: "/uploads/keetro banner-05 (1).jpg"
   pre-application: "/uploads/keetro banner-01 (1).jpg"
   story:
-    one: Cold Calling (8).png
-    two: Cold Calling (6).png
-    three: Cold Calling (7).png
+    one: "/uploads/Cold Calling (8).png"
+    two: "/uploads/Cold Calling (6).png"
+    three: "/uploads/Cold Calling (7).png"
 why: '<h1>Why Keetro Club?</h1><p class="lead"> -access to network of industry professionals</p>
 
 '
