@@ -5,7 +5,7 @@ order_number: "2"
 permalink: "/application-process.html"
 application_images:
   header: "/uploads/Application Landing page cover.jpg"
-  pre-applicaiton: "/uploads/keetro banner-05.jpg"
+  pre-applicaiton: "/uploads/keetro banner-02.jpg"
 movie:
   image: "/uploads/mike_holt.jpg"
   link: https://www.youtube.com/embed/PBGGfjamIMQ
