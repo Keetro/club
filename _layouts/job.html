@@ -1,0 +1,87 @@
+---
+layout: default
+---
+{% assign meta = page %}
+{% include navbar.html %}
+      <div class="main-container">
+            <section class="space--sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>{{ meta.job.title }}</h1>
+                            <ol class="breadcrumbs">
+
+                                <li>({{ meta.job.terms }} - {{ meta.job.location }})</li>
+                            </ol>
+                            <hr>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="switchable">
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="col-md-8 col-lg-7">
+{{ meta.content }}
+
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="text-block">
+                                <h5>Other Applicable Job Titles:</h5>
+                                <ul class="bullets">
+
+                                    {%  for alias in meta.job.aliases  %}
+                                    <li>{{ alias.title }}</li>
+                                    {% endfor %}
+
+                                </ul>
+                            </div>
+                            <!-- <div class="text-block">
+                                <h5>Experience</h5>
+                                <p>
+                                    Ideally 2 — 4 years experience in an agency environment working in mult-tiered teams
+                                </p>
+                            </div> -->
+                            <div class="text-block">
+                                <h5>Employment Terms</h5>
+                                <p></p><ul>
+                                  <li>{{ meta.job.terms }}</li>
+                                  <li>{{ meta.job.location }}</li>
+                                  </ul>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6">
+                            <div class="cta">
+                                <h2>Sound like the job for you?</h2>
+                                <p class="lead">
+                                    Got what it takes to work with us? Great! Email us.
+
+<br><br>
+Please be sure to complete all personality tests on <a target="_blank" href="https://app.crystalknows.com/">app.crystalknows.com</a> (can be done anonymously if you are concerned about sharing your data with Crystal) and send us your printout along with your cover letter and resume.
+
+                                </p>
+                                <a class="btn btn--primary type--uppercase" href="mailto: hunter@keetro.org">
+                                    <span class="btn__text">
+                                        Email
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+        </div>

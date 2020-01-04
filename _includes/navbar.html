@@ -22,7 +22,11 @@
                                                         <div class="dropdown__content col-lg-2">
                                                             <ul class="menu-vertical">
                                                                 {% for item in site.menus.header %}
+                                                                {% if item.hide_menu %}
+
+                                                                {% else %}
   <li> <a href="{{ item.url }}" class="inner-link" target="_self">{{ item.title }}</a> </li>
+  {% endif  %}
 {% endfor  %}
                                                             </ul>
                                                         </div>
