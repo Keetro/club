@@ -32,11 +32,10 @@ advisors:
 closing:
   headline: Let's Talk about Your Options for Career Development
   explanation: |
-    <h1> Become a Growth Associate<h1/>If you’re passionate about marketing, we want you.
-    Would you like to be part of a community where you can impart your unique experience to others and learn from the pros at the same time?
-    Are you ready to hit the ground running and make the best use of the resources Keetro Club provides?<br>If you think this may be a good fit, there’s no better time than right now to get started.
-    Our application process is simple and straightforward; you could be enjoying all the Keetro Club has to offer within days.
-     rewarding direction?<br>
+    Are you a sales development representative whose career advancement has bogged down?
+    Are you having trouble seeing the path to greater success from here?
+    Do you feel like you’re being held back because there are so many people above you in the corporate food chain?
+    What if you could expand your skillset and manage projects designed to bring your career in a more rewarding direction?
   cta: Request Early Access
 
 ---
