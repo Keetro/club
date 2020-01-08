@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Marketing Club
+title: Marketing Club - New Home
 order_number: "1"
 permalink: "/home.html"
 home_images:
