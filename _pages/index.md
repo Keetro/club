@@ -10,7 +10,7 @@ home_images:
     one: "/uploads/Cold Calling (8).png"
     two: "/uploads/Cold Calling (6).png"
     three: "/uploads/Cold Calling (7).png"
-why: <h1>Why Keetro Club?</h1><p class="lead"> -access to network of industry professionals</p>
+why: "<h1>Why Keetro Club?</h1>"
 value_proposition:
   one: Work from wherever you want. There's no office you have to come into, and you
     choose your own hours.
