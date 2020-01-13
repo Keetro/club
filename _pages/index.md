@@ -12,6 +12,11 @@ home_images:
     three: "/uploads/Cold Calling (7).png"
 why: "<h1>Why Keetro Club?</h1>"
 value_proposition:
+  headers:
+    one: Remote
+    two: Part-time
+    three: Develop Marketing Skills
+    four: Financial Incentives
   one: Work from wherever you want. There's no office you have to come into, and you
     choose your own hours.
   two: Start off as a side hustle while continuing with your full-time SDR gig (but
