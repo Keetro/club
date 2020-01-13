@@ -10,7 +10,7 @@ layout: default
                         <div class="col-md-6">
                             <div class="mt--2">
                                 {{ meta.sidebar.text }}
-                                <a class="btn btn--primary type--uppercase" href="{{ site.data.links.about }}" target="_self"> <span class="btn__text">
+                                <a class="btn btn--primary type--uppercase" href="{{ site.data.links.about.href }}" target="_self"> <span class="btn__text">
                             {{ meta.sidebar.cta }}</span> </a>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ layout: default
                     <div class="row">
                         <div class="col-md-8 col-lg-6">
                             <div class="cta">
-                                <a class="btn btn--primary btn--lg type--uppercase" href="{{ site.data.links.application }}" target="_self"> <span class="btn__text">
+                                <a class="btn btn--primary btn--lg type--uppercase" href="{{ site.data.links.application.href }}" target="_self"> <span class="btn__text">
                             {{ meta.application_process.cta }}</span> </a>
                             </div>
                         </div>
@@ -115,7 +115,7 @@ layout: default
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-7">
-                            <h2>Join Keetro Club&nbsp;</h2> <span>Already have an account? <a href="{{ site.data.links.login }}">Sign In</a></span>
+                            <h2>Join Keetro Club&nbsp;</h2> <span>Already have an account? <a href="{{ site.data.links.login.href }}">Sign In</a></span>
                             <hr class="short">
                             <form>
                                 <div class="row">
@@ -127,7 +127,7 @@ layout: default
                                         <div class="input-checkbox"> <input type="checkbox" name="agree"> <label></label> </div> <span>Remember Me</span> </div>
                                     <div class="col-12"> <button type="submit" class="btn btn--primary">Start&nbsp;the Keetro Club Application </button> </div>
                                     <hr>
-                                    <div class="col-12"> <span class="type--fine-print">By signing up, you agree to the <a href="{{ site.data.links.terms }}">Terms of Service</a></span> </div>
+                                    <div class="col-12"> <span class="type--fine-print">By signing up, you agree to the <a href="{{ site.data.links.terms.href }}">Terms of Service</a></span> </div>
                                 </div>
                             </form>
                         </div>

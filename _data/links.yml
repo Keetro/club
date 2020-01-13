@@ -1,6 +1,18 @@
-login: something.slack.com
-terms: https://keetro.org/terms.html
-about: about.html
-home: home.html
-what-we-do: what-do-we-do.html
-application: application-process.html
+login:
+  href: https://keetroclub.slack.com
+  text: Login
+terms:
+  href: https://keetro.org/terms.html
+  text: Terms of Service
+about:
+  href: about.html
+  text: About Us
+home:
+  href: home.html
+  text: Home
+what-we-do:
+  text: Career Tracks Explained
+  href: what-do-we-do.html
+application:
+  href: application-process.html
+  text: Application Process
