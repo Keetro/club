@@ -16,8 +16,8 @@ value_proposition:
     choose your own hours.
   two: Start off as a side hustle while continuing with your full-time SDR gig (but
     you can take on as much as you'd like).
-  three: Learn valuable skills from experts in the field, and get access to a broad
-    network of industry professionals.
+  three: Learn valuable skills from experts in the field and access a broad network
+    of industry professionals.
   four: Take your career in a new and exciting direction while managing successful
     projects that put money in your pocket and boost your resume.
 application_process:
@@ -32,7 +32,7 @@ about:
 '
   text: |
     <h1>About Keetro Club</h1>
-                            <p class="lead">- Platform with growth and development opportunities<br>- Non-profit organization helping start marketing career <br>- Facillitates networking with industry professionals for SDRs</p>
+                            <p class="lead">- Platform packed with growth/development opportunities<br>- Non-profit organization helping start marketing career <br>- Facillitates networking with industry professionals for SDRs</p>
 sidebar:
   cta: Learn more about this opportunity
   text: |
