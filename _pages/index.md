@@ -7,6 +7,7 @@ home_images:
   left-sidebar: "/uploads/keetro banner-05 (1).jpg"
   pre-application: "/uploads/keetro banner-01 (1).jpg"
   story:
+    headline: "We help nurture your marketing career growth from seed to sprout!"
     one: "/uploads/Cold Calling (8).png"
     two: "/uploads/Cold Calling (6).png"
     three: "/uploads/Cold Calling (7).png"
