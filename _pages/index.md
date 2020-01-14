@@ -37,7 +37,7 @@ about:
 '
   text: |
     <h1>About Keetro Club</h1>
-                            <p class="lead">- Platform packed with growth/development opportunities<br>- Non-profit organization helping start marketing career <br>- Facillitates networking with industry professionals for SDRs</p>
+                            <p class="lead">We are a non-profit platform packed with growth and development opportunities for SDRs. Our goal is to help start your marketing career and facilitate networking with industry professionals along the way.</p>
 sidebar:
   cta: Learn more about this opportunity
   text: |
