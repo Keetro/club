@@ -7,10 +7,10 @@ home_images:
   left-sidebar: "/uploads/keetro banner-05 (1).jpg"
   pre-application: "/uploads/keetro banner-01 (1).jpg"
   story:
-    headline: "We help nurture your marketing career growth from seed to sprout!"
-    one: "/uploads/Cold Calling (8).png"
-    two: "/uploads/Cold Calling (6).png"
-    three: "/uploads/Cold Calling (7).png"
+    headline: We help nurture your marketing career growth from seed to sprout!
+    one: "/uploads/Asset 1@4x.png"
+    two: "/uploads/Asset 2@4x.png"
+    three: "/uploads/Asset 3@4x.png"
 why: "<h1>Why Keetro Club?</h1>"
 value_proposition:
   headers:
