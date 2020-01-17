@@ -28,8 +28,7 @@ partners:
 influencer:
   header: Gain Access to Industry Leaders
   body: "<b>Keetro Club has an unbeatable group of advisors with sales and marketing
-    leadership backgrounds, all of which are committed to seeing members succeed.
-    </b>"
+    leadership backgrounds, all of who are committed to seeing members succeed. </b>"
   cta: Lean More
 process:
 - name: Fill out Pre-Application Form
