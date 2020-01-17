@@ -33,7 +33,7 @@ problem_outline: "<h2>The SDR Problem</h2><p class=\"lead\">\nSDRs play a critic
   \nKeetro Club will help you:\n <br>\n• Take on projects that help you learn new
   transferable skills <br>\n• Gain experience in Growth Marketing activities <br>\n•
   Build your network through fellow Keetro Club members<br>\n• Forge your own career
-  path and escape the SDR trap <br> \n</p>\n\n<h2>Become a Growth Associate<h2/>\n<p
+  path and escape the SDR trap <br> \n</p>\n\n<h2>Become a Growth Associate</h2>\n<p
   class=\"lead\">If you’re not satisfied with the current trajectory of your career,
   it's time to do something about it. You have two choices: continue to languish and
   wait for the dream opportunity that may never come... <br>\n<br>\nOr be proactive
