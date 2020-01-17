@@ -14,28 +14,29 @@ right-content: 'You''ll get paid to develop, learn, and expand your current skil
   We also help prepare you for your transition into a new marketing career by connecting
   you with experienced professionals from the industry. '
 right-cta: Become a Growth Associate
-problem_outline: "<h2>The SDR Problem</h2><p class=\\\"lead\\\">\nSDRs play a critical
+problem_outline: "<h2>The SDR Problem</h2><p class=\"lead\">\nSDRs play a critical
   role in every company and serve as the first point of direct contact with prospects.
   You are the ambassador to your brand. \nHowever, it has become all too common that
   SDRs aren't offered career advancement and end up stagnating in their roles. \nCompetition
   for roles as an SDR manager or account executive are fierce, and getting an edge
   is extremely difficult. Even for the SDRs who do manage to advance, studies show
   that 40% of recently advanced account executives are fired within the first year
-  for poor performance (see Bridge Group study). \n\n<h2>How Can We Help?</h2>\n“If
-  you want them to stay longer, you’ve got to give them a career path. What they really
-  want is not a new title; they want new skills to add to their resume.” - Trish Bertuzzi,
-  President & Chief Strategist, The Bridge Group.<br>\n \n<br>What if you could constantly
-  learn new transferable skills that position you perfectly for any AE or management
-  positions that become available? \n\nGetting a leg up on the competition is the
-  goal, and we have the solution for you.<br>\n \n<blockquote>\nIf your career is
-  at a standstill with no available pathways for advancement, Keetro Club has another
-  way forward. \n</blockquote>\n<br> Keetro Club will help you: <br>\n• Take on projects
-  that help you learn new transferable skills <br>\n• Gain experience in Growth Marketing
-  activities <br>\n• Build your network through fellow Keetro Club members<br>\n•
-  Forge your own career path and escape the SDR trap <br> </p>\n\n<h2>Become a Growth
-  Associate<h2/>\n<br>If you’re not satisfied with the current trajectory of your
-  career, it's time to do something about it. You have two choices: continue to languish
-  and wait for the dream opportunity that may never come... <br>\n<br>\nOr be proactive
+  for poor performance (see Bridge Group study). </p>\n\n<h2>How Can We Help?</h2>\n<p
+  class=\"lead\">“If you want them to stay longer, you’ve got to give them a career
+  path. What they really want is not a new title; they want new skills to add to their
+  resume.” - Trish Bertuzzi, President & Chief Strategist, The Bridge Group.<br>\n
+  \n<br>What if you could constantly learn new transferable skills that position you
+  perfectly for any AE or management positions that become available? \n\nGetting
+  a leg up on the competition is the goal, and we have the solution for you.<br>\n
+  </p>\n<blockquote>\nIf your career is at a standstill with no available pathways
+  for advancement, Keetro Club has another way forward. \n</blockquote>\n<p class=\"lead\">\n<br>
+  \nKeetro Club will help you:\n <br>\n• Take on projects that help you learn new
+  transferable skills <br>\n• Gain experience in Growth Marketing activities <br>\n•
+  Build your network through fellow Keetro Club members<br>\n• Forge your own career
+  path and escape the SDR trap <br> \n</p>\n\n<h2>Become a Growth Associate<h2/>\n<p
+  class=\"lead\">If you’re not satisfied with the current trajectory of your career,
+  it's time to do something about it. You have two choices: continue to languish and
+  wait for the dream opportunity that may never come... <br>\n<br>\nOr be proactive
   and give yourself a chance to grow and thrive.<br>\nWe’re here for those who choose
   the latter option.<br>\n<br>\nWe hope you’re one of them.<br>\n <br></p>\n"
 sdr_skills: '<h1>SDR''s top 5 Skills:</h1><p class=\"lead\">You might not realize
