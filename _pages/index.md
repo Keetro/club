@@ -1,13 +1,13 @@
 ---
 layout: home
-title: Marketing Club - New Home
+title: Marketing Club
 order_number: "1"
-permalink: "/home.html"
+permalink: "/index.html"
 home_images:
   left-sidebar: "/uploads/keetro banner-05 (1).jpg"
   pre-application: "/uploads/keetro banner-01 (1).jpg"
   story:
-    headline: We help nurture your marketing career growth from seed to sprout!
+    headline: We help nurture your marketing career from seed to sprout!
     one: "/uploads/Asset 1@4x.png"
     two: "/uploads/Asset 2@4x.png"
     three: "/uploads/Asset 3@4x.png"
@@ -49,6 +49,6 @@ menu:
     show_title: true
     nav_title: Welcome!
     title: Home
-    url: home.html
+    url: index.html
 
 ---

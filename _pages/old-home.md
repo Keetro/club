@@ -2,7 +2,7 @@
 layout: old-home
 title: Marketing Club!
 order_number: "5"
-permalink: "/"
+permalink: "/old-home.html"
 intro:
   header: Develop your Career as a Growth Associate!
   description: Join Keetro Club, part of a Non-Profit, as a Growth Associate to help
