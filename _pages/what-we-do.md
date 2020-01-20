@@ -5,15 +5,15 @@ order_number: "3"
 permalink: "/what-do-we-do.html"
 other_images:
   career_opp: "/uploads/Cold Calling (3).png"
-  left-sidebar: "/uploads/keetro banner-05 (1).jpg"
   sdr_skills: "/uploads/SDR Skills.png"
   funnel: "/uploads/Blue and White Funnel Chart Presentation (1) (1).png"
   growth_skills: "/uploads/Growth Marketers Skills.png"
-right-header: Keetro Club is here to help you learn key skills!
-right-content: 'You''ll get paid to develop, learn, and expand your current skills.
-  We also help prepare you for your transition into a new marketing career by connecting
-  you with experienced professionals from the industry. '
+right-header: We make Growth Marketers!
+right-content: 'Get paid to develop, learn, and expand your current skills.
+  Prepare for your transition into a new marketing career by connecting
+  with experienced professionals from the same industry. '
 right-cta: Become a Growth Associate
+<<<<<<< Updated upstream
 problem_outline: "<h2>The SDR Problem</h2><p class=\"lead\">\nSDRs play a critical
   role in every company and serve as the first point of direct contact with prospects.
   You are the ambassador to your brand. \nHowever, it has become all too common that
@@ -53,6 +53,19 @@ problem_outline: "<h2>The SDR Problem</h2><p class=\"lead\">\nSDRs play a critic
   dream opportunity that may never come... <br>\n<br>\nOr be proactive and give yourself
   a chance to grow and thrive.<br>\nWe’re here for those who choose the latter option.<br>\n<br>\nWe
   hope you’re one of them.<br>\n <br></p>\n"
+=======
+problem_outline: "<h2>Advancing as SDR is Problematic</h2><p class=\"lead\">All too common that SDRs aren't offered career advancement and end up stagnating in their roles. Studies show that of all SDRs recently advanced into account executives, 40% are fired within the first year for poor performance (see Bridge Group study). <br/><br/>And only 2/3 of entry-level SDRs hit the (ever-increasing) Quota.</p>
+
+<h2>What you need is time to develop new skills</h2><p class=\"lead\">
+SDRs are quick to learn the tools and skills required for a new job (2-4 weeks), but that is usually where it ends. Employers often don't provide the time or resources to help you continue learn and develop new skills. You end up spending years in the same role, without having the time to develop a skillset needed to pursue opportunities for advancement.
+</p>
+
+<h2>We help you get a leg up on competition</h2><p
+  class=\"lead\"><br>What if you could constantly learn new transferable skills that position you perfectly for any marketing position that become available?<br>
+<br/>Keetro Club provides such training. Specifically:
+</p>
+  "
+>>>>>>> Stashed changes
 sdr_skills: '<h1>SDR''s top 5 Skills:</h1><p class=\"lead\">You might not realize
   it, but you already have a ton of skills that are in high demand, especially in
   a growth marketing career.<br><br></p>
@@ -62,25 +75,14 @@ growth_skills: '<h1> Growth Marketer top 5 Skills</h1><p class=\"lea">But what w
   happen if you added several more skills to your toolbox?</p>
 
 '
+bottom-cta:
+  title: Beat the SDR Funnel, Start a Marketing Career
+  body: With Keetro Club, SDRs have an opportunity to learn new skills, help our mission of expanding in-person events, and find an alternative career opportunity in marketing.
 menu:
   header:
     show_title: false
     nav_title: What do We Do?
-    title: More about GAs
+    title: Why we Exist?
     url: what-do-we-do.html
 
 ---
-<p>- Report done by the <i>BridgeGroup</i>, - 1/3 of entry-level SDR's fail to hit Quota. <br>- 60% of SDR's are promoted or transferred internally<br>- Out of the SDR's who become an AE, 40% were fired within a year due to poor performance (may be caused by lack of relevant skills)</p>
-<h5>Career Advancement opportunities:</h5>
-<p>- SDRs quickly learn the tools and skills required for the job (2-4 weeks). <br>- That is usually where it ends<br>- Employers don't provide the time or resources to continue to learn/develop new skills<br>- E
-<gwmw class="ginger-module-highlighter-mistake-type-3" id="gwmw-15766279482914952798457">nd</gwmw> up spending years in the same role <br>- Not given time to develop a skill set needed to pursue advancement opportunities<br>- Scared to try a new career path due to a lack of relevant skills. </p>
-<blockquote> “If you want them to stay longer, you’ve got to give them a career path. What they really want is not a new title; they want new skills to add to their resume.” - Trish Bertuzzi, President & Chief Strategist, The Bridge Group. </blockquote>
-<p><b><u>
-Solution:</u></b></p>
-<p>- Limited growth opportunities<br>- Keetro Club provides opportunities to:</p>
-<ul class="bullets">
-<li>Take on projects that help you learn new transferable skills</li>
-<li>Gain experience in Growth Marketing activities</li>
-<li>Build your network through fellow Keetro Club members </li>
-<li>Forge your own career path</li>
-</ul>

@@ -10,14 +10,13 @@ layout: default
                         <div class="col-md-6 col-lg-5 mt--3">
                             <h1>{{ meta.right-header }}</h1>
                             <p class="lead">{{ meta.right-content }}</p>
-                            <a class="btn btn--primary type--uppercase" href="/application-process/" target="_self"> <span class="btn__text">
-            {{ meta.right-cta }}&nbsp;</span> </a>
+
                         </div>
                         <div class="col-md-6"> <img alt="Image" src="{{meta.other_images.career_opp}}"> </div>
                     </div>
                 </div>
             </section>
-            <section class="text-center space--xxs bg--secondary">
+            <section class="text-center space--xxs bg--primary-3">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 col-lg-8">
@@ -26,7 +25,37 @@ layout: default
                     </div>
                 </div>
             </section>
-<section class="cover unpad--bottom switchable bg--secondary text-center-xs">
+            <section class="bg--primary-3 unpad--bottom space--xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature feature-6">
+                                <h5>Skill Advancement</h5>
+                                <p> Take on projects that help you learn new transferable skills </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature feature-6">
+                                <h5>Real Marketing Projects</h5>
+                                <p> Gain experience in Growth Marketing activities </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature feature-6">
+                                <h5>Network Support</h5>
+                                <p> Build your network through fellow Keetro Club members </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature feature-6">
+                                <h5>Alternative Career</h5>
+                                <p> Forge your own career path </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cover space--xxs unpad--bottom switchable bg--primary-3 text-center-xs">
                 <div class="container">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-md-6 col-lg-5 mt--3">
@@ -36,7 +65,7 @@ layout: default
                     </div>
                 </div>
             </section>
-            <section class="cover unpad--bottom switchable bg--secondary text-center-xs switchable--switch">
+            <section class="cover unpad--bottom switchable bg--primary-3 text-center-xs switchable--switch">
                 <div class="container">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-md-6 col-lg-5 mt--3">
@@ -46,15 +75,16 @@ layout: default
                     </div>
                 </div>
             </section>
-            <section class="space--sm">
+            <section class="text-center space--sm bg--secondary">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-10 col-lg-8">
-                            <article>
-                                <div class="article__body"> <img alt="Image" src="{{ meta.other_images.funnel }}">
-{{ meta.content }}
-                                    </div>
-                            </article>
+                    <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                            <div class="cta">
+                                <h2>{{ meta.bottom-cta.title }}</h2>
+                                <p class="lead">{{ meta.bottom-cta.body }}</p>
+                                <a class="btn btn--primary type--uppercase" href="{{ site.data.links.application.href }}">
+                                    <font color="#000000"><span><b>go to the Application Page</b></span></font><br> </a>
+                            </div>
                         </div>
                     </div>
                 </div>
