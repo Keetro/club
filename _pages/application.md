@@ -36,11 +36,11 @@ influencer:
   cta: "Learn more: what we do"
 process:
 - name: Fill out Pre-Application Form
-  description: 'It''s time to tell us about yourself. '
-- name: Fill out the Application form
   description: 'Your prior experience helps us determine what resources you''ll need. '
 - name: Pay $25 application processing fee
   description: This fee helps maintain our non-profit by covering administrative costs.
+- name: Complete Onboarding
+  description: 'Learn how to best leverage our gigs for both learning and supplemental income'
 why-join:
   main: |
     <p class="lead">Is your career is at a standstill with no available pathways for advancement?<br/><br/>We have another way forward... </p>
