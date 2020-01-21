@@ -38,9 +38,9 @@ about:
 '
   text: |
     <h1>About Keetro Club</h1>
-                            <p class="lead">We are a non-profit platform packed with growth and development opportunities for SDRs. Our goal is to help start your marketing career and facilitate networking with industry professionals along the way.</p>
+                            <p class="lead">We are a non-profit platform packed with growth and development opportunities for SDRs. Our goal is to help start your marketing career.</p>
 sidebar:
-  cta: Learn more about this opportunity
+  cta: What Do We Do?
   text: |
     <h1>Are you "stuck" in your current role?</h1>
                                 <p class="lead">It's common for SDRs to spend years scheduling meetings with very little hope of career advancement. Keetro Club provides an elite marketing apprenticeship for ambitious SDRs looking for growth opportunities.</p>
