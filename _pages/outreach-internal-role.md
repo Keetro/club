@@ -9,7 +9,7 @@ job:
     - title: "Client Concierge"
     - title: "Education Recruiter"
     - title: "Event Marketing"
-    - title: "Admin Ninja
+    - title: "Admin Ninja"
   terms: "Contract"
   location: Seattle, WA
 <!-- menu:
