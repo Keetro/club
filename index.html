@@ -231,19 +231,45 @@
                         <div class="col-lg-5 col-md-7">
                             <h2>Join Keetro Club&nbsp;</h2> <span>Already have an account? <a href="https://keetroclub.slack.com">Sign In</a></span>
                             <hr class="short">
-                            <form>
-                                <div class="row">
-                                    <div class="col-12"> <input type="text" name="First Name" placeholder="Your Name"> </div>
-                                    <div class="col-12"> <input type="email" name="Email Address" placeholder="Email Address"> </div>
-                                    <div class="col-12"> <input type="password" name="Password" placeholder="Phone"> </div>
-                                    <div class="col-12"> <input type="password" name="Password-confirm" placeholder="LinkedIn URL (optional)"> </div>
-                                    <div class="col-12">
-                                        <div class="input-checkbox"> <input type="checkbox" name="agree"> <label></label> </div> <span>Remember Me</span> </div>
-                                    <div class="col-12"> <button type="submit" class="btn btn--primary">Start&nbsp;the Keetro Club Application </button> </div>
-                                    <hr>
-                                    <div class="col-12"> <span class="type--fine-print">By signing up, you agree to the <a href="https://keetro.org/terms.html">Terms of Service</a></span> </div>
-                                </div>
-                            </form>
+                            <form id="application_form" method="POST" action="">
+                                    <div class="row">
+                                        <div class="col-12"> <input type="text" name="name" placeholder="Your Name"> </div>
+                                        <div class="col-12"> <input type="email" name="email" placeholder="Email Address"> </div>
+                                        <div class="col-12"> <input type="text" name="phone" placeholder="Phone"> </div>
+                                        <div class="col-12"> <input type="text" name="linkedin" placeholder="LinkedIn Url"> </div>
+<!--                                         <div class="col-12">
+                                            <div class="input-checkbox"> <input type="checkbox" name="agree"> <label></label> </div> <span>Remember Me</span> </div> -->
+                                        <div class="col-12"> <button type="submit" class="btn btn--primary">Start Application</button> </div>
+                                        <hr>
+                                        <div class="col-12"> <span class="type--fine-print">By signing up, you agree to the <a href="keetro.org/terms.html">Terms of Service</a></span> </div>
+                                    </div>
+                                </form>
+                            <script>
+
+                                document.addEventListener("DOMContentLoaded", function(event) {
+                                    var typeform_endpoint = "https://keetro.typeform.com/to/AzhwRi";
+                                    var zapier_endpoint = "https://hooks.zapier.com/hooks/catch/6524467/ohsbu50/silent/";
+                                    console.log(zapier_endpoint);
+                                    $( "#application_form" ).submit(function( event ) {
+
+                                      // Stop form from submitting normally
+                                      event.preventDefault();
+
+                                      // Get some values from elements on the page:
+                                      var $form = $( this );
+                                      $.ajax({
+                                            type: 'POST',
+                                            url: zapier_endpoint,
+                                            // dataType: 'json',
+                                            data: $form.serialize(),
+                                            success: function(json) {
+                                               window.location.href = typeform_endpoint+"?"+$form.serialize();
+                                            }
+                                        });
+                                        return false;
+                                    });
+                                });
+                                </script>
                         </div>
                     </div>
                 </div>
