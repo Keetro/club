@@ -29,8 +29,8 @@ value_proposition:
 application_process:
   one: Fill Out Pre-Application Form
   two: Complete Keetro Club Application
-  three: Pay $25 Application Processing Fee
-  four: Gain Access To Proprietary Resources
+  three: Pay $75 Application Processing Fee
+  four: Gain Access To Proprietary Jobs
   cta: Learn more about applying
 about:
   cta: 'Learn more about Keetro Club

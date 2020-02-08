@@ -37,7 +37,7 @@ influencer:
 process:
 - name: Fill out Pre-Application Form
   description: 'Your prior experience helps us determine what resources you''ll need. '
-- name: Pay $25 application processing fee
+- name: Pay $75 application processing fee
   description: This fee helps maintain our non-profit by covering administrative costs.
 - name: Complete Onboarding
   description: 'Learn how to best leverage our gigs for both learning and supplemental income'
